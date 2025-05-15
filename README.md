@@ -2,18 +2,7 @@
 
 ## Project Description
 
-This is a draft pet project for testing Generative AI on different software engineering tasks. It is planned to evolve and grow over time. Specifically, this repo will be a React.js playground. For now, we only have the Ruby on Rails application as a Back-End, but we plan to extend it to other technologies in the future. This application can be started using Rancher to deploy the Ruby on Rails Back-End and this React Front-End. You can import your existing `docker-compose.yml` files into Rancher or create workloads using the Dockerfiles provided.
-## Running with Rancher
-
-To run the React front-end with the Ruby on Rails back-end using Rancher:
-
-1. Install Rancher by following the [Rancher Quick Start Guide](https://ranchermanager.docs.rancher.com/pages-for-subheaders/quick-start-guide).
-2. Set up a local or cloud-based Kubernetes cluster in Rancher.
-3. Import the `docker-compose.yml` files from both the React and Ruby back-end repositories into Rancher using the "Deploy from Compose" option, or manually create workloads for each service using the Dockerfiles.
-4. Adjust environment variables, ports, and volumes as needed in the Rancher UI.
-5. Start the workloads and monitor their status from the Rancher dashboard.
-
-For more details, see the [Rancher documentation on deploying Docker Compose apps](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/workloads/deploy-workloads-from-compose-files).
+This is a draft pet project for testing Generative AI on different software engineering tasks. It is planned to evolve and grow over time. Specifically, this repo will be a React.js playground. For now, we only have the Ruby on Rails application as a Back-End, but we plan to extend it to other technologies in the future. This application can be started with a `docker compose` using the Ruby on Rails Back-End application mentioned.
 
 The application's legend is based on the sports-hub application description from the following repo: [Sports-Hub](https://github.com/dark-side/sports-hub).
 
